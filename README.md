@@ -25,29 +25,25 @@ confirmer.
 ### La première installation
 
 1. Ouvrir la dernière version : https://github.com/Fugipe/outils-facilitime-versions/releases/latest
-2. Télécharger « Outils-Facilitime-…-Windows.zip ».
-3. Avant de l'ouvrir, le débloquer : clic droit sur le zip, « Propriétés »,
-   cocher « Débloquer » en bas de l'onglet « Général », puis « OK ». Sans
-   cela, Windows affiche « Windows a protégé votre ordinateur » au
-   lancement : l'outil n'est pas signé par un certificat payant.
-4. Clic droit sur le zip, « Extraire tout… », « Parcourir… » pour choisir le
-   dossier Documents, puis « Extraire ». Le zip y met le dossier
-   « Outils Facilitime ». Il faut tout le dossier : l'outil ne démarre pas
-   sans ce qui l'accompagne.
-5. Dans Documents › Outils Facilitime, lancer « Outils Facilitime.exe ». Si
-   Windows affiche quand même « Windows a protégé votre ordinateur » :
-   « Informations complémentaires », puis « Exécuter quand même ».
-6. Pour le retrouver : clic droit sur « Outils Facilitime.exe », « Envoyer vers »,
-   « Bureau (créer un raccourci) » (sous Windows 11, d'abord « Afficher
-   d'autres options »).
+2. Télécharger l'installeur, « Installer-Outils-Facilitime-….exe ».
+3. L'ouvrir. Si Windows affiche « Windows a protégé votre ordinateur » :
+   « Informations complémentaires », puis « Exécuter quand même » — l'outil
+   n'est pas signé par un certificat payant.
+4. « Installer », puis « Terminer » : l'outil s'ouvre.
+
+L'installeur ne demande rien d'autre, ni droits d'administrateur : l'outil
+va dans le dossier des programmes de la personne
+(%LOCALAPPDATA%\Programs\Outils Facilitime), avec un raccourci sur le
+Bureau et dans le menu Démarrer ; « Désinstaller » est dans les
+applications de Windows. Ouvert sur une version déjà installée, il la
+remplace, en fermant l'outil s'il est ouvert.
 
 ### Les versions suivantes
 
 L'outil les trouve lui-même, comme sur le Mac. Le point vert sur le nom, en
 bas de la barre, et la page de connexion annoncent la nouvelle version ;
 « Installer » la télécharge, vérifie qu'elle est bien signée, remplace
-l'outil et le rouvre, sans rien à confirmer. Un outil qui n'a pas encore ce
-bouton se remplace une dernière fois à la main : le fermer, télécharger le
-zip et le débloquer, puis le décompresser au même endroit, dans Documents
-(« Extraire tout… »), en choisissant « Remplacer les fichiers dans la
-destination ».
+l'outil et le rouvre, sans rien à confirmer — c'est à quoi sert le zip
+« Outils-Facilitime-…-Windows.zip ». Un outil décompressé à la main,
+ailleurs — dans Documents, par exemple —, se remplace par l'installeur : la
+fenêtre de sa version en donne le lien ; l'ancien dossier se jette ensuite.
