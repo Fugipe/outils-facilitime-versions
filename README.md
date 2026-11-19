@@ -26,22 +26,28 @@ confirmer.
 
 1. Ouvrir la dernière version : https://github.com/Fugipe/outils-facilitime-versions/releases/latest
 2. Télécharger « Outils-Facilitime-…-Windows.zip ».
-3. Clic droit sur le zip, « Extraire tout… », « Parcourir… » pour choisir le
+3. Avant de l'ouvrir, le débloquer : clic droit sur le zip, « Propriétés »,
+   cocher « Débloquer » en bas de l'onglet « Général », puis « OK ». Sans
+   cela, Windows affiche « Windows a protégé votre ordinateur » au
+   lancement : l'outil n'est pas signé par un certificat payant.
+4. Clic droit sur le zip, « Extraire tout… », « Parcourir… » pour choisir le
    dossier Documents, puis « Extraire ». Le zip y met le dossier
    « Outils Facilitime ». Il faut tout le dossier : l'outil ne démarre pas
    sans ce qui l'accompagne.
-4. Dans Documents › Outils Facilitime, lancer « Outils Facilitime.exe ». Windows
-   affiche « Windows a protégé votre ordinateur » : « Informations
-   complémentaires », puis « Exécuter quand même ». L'outil n'est pas signé
-   par un certificat payant.
-5. Pour le retrouver : clic droit sur « Outils Facilitime.exe », « Envoyer vers »,
+5. Dans Documents › Outils Facilitime, lancer « Outils Facilitime.exe ». Si
+   Windows affiche quand même « Windows a protégé votre ordinateur » :
+   « Informations complémentaires », puis « Exécuter quand même ».
+6. Pour le retrouver : clic droit sur « Outils Facilitime.exe », « Envoyer vers »,
    « Bureau (créer un raccourci) » (sous Windows 11, d'abord « Afficher
    d'autres options »).
 
 ### Les versions suivantes
 
-Le bouton vert « Version … disponible » de l'accueil montre ce qui change, et
-« Télécharger » enregistre le zip de la nouvelle version. Fermer l'outil, puis
-décompresser tout le zip au même endroit, dans Documents (« Extraire tout… »),
-et choisir « Remplacer les fichiers dans la destination ». Relancer l'outil ;
-au besoin, « Informations complémentaires » puis « Exécuter quand même ».
+L'outil les trouve lui-même, comme sur le Mac. Le point vert sur le nom, en
+bas de la barre, et la page de connexion annoncent la nouvelle version ;
+« Installer » la télécharge, vérifie qu'elle est bien signée, remplace
+l'outil et le rouvre, sans rien à confirmer. Un outil qui n'a pas encore ce
+bouton se remplace une dernière fois à la main : le fermer, télécharger le
+zip et le débloquer, puis le décompresser au même endroit, dans Documents
+(« Extraire tout… »), en choisissant « Remplacer les fichiers dans la
+destination ».
