@@ -47,3 +47,8 @@ l'outil et le rouvre, sans rien à confirmer — c'est à quoi sert le zip
 « Outils-Facilitime-…-Windows.zip ». Un outil décompressé à la main,
 ailleurs — dans Documents, par exemple —, se remplace par l'installeur : la
 fenêtre de sa version en donne le lien ; l'ancien dossier se jette ensuite.
+
+## Depuis la 1.20.0
+
+Les versions sont sur le PC du bureau, http://192.168.1.35:8090/, visibles du
+seul réseau du bureau. Ce dépôt n'a plus de nouvelle version.
